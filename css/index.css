@@ -1,0 +1,30 @@
+.content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top :2%;
+    max-width: 1628px ;
+}
+
+.games {
+    width: 26%;
+    height: 30%;
+    /* background-color: aquamarine; */
+    border: solid 1px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.games img {
+    width: 100%;
+    height: 80%;
+}
+
+.games p {
+    
+}
