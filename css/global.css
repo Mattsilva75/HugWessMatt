@@ -1,0 +1,107 @@
+body {
+	display: grid;
+	grid-template-columns: 15% 85%;
+	grid-template-rows: 15% 75% 10%;
+	width: 100vw;
+	height: 100vh;
+	grid-template-areas: 
+	"header header"
+	"aside main"
+	"footer footer";
+    margin : 0;
+    padding: 0;
+
+}
+
+html { 
+	scroll-behavior: smooth; 
+}
+
+header {
+	grid-area: header;
+	display: flex;	
+	justify-content: space-between
+}
+
+
+h1 {
+	margin-right: 20%;
+	height : 100%;
+	font-family: arial;
+	font-size: 5vw;
+	margin-top: 0;
+}
+
+
+aside {
+	
+	border-right: 1px solid black;
+	grid-area: aside;
+
+}
+
+main {
+	
+	grid-area: main;
+}
+
+footer {
+	background-color: grey;
+	grid-area: footer;
+	font-size: 12px;
+}
+
+footer ul li{
+	font-family: arial;
+	font-size: 1vw;
+	text-decoration:none;
+	list-style-type: none;	
+	margin-left: 18%;
+}
+
+footer ul{
+	margin: 3%;
+	padding:0;
+	display: flex;
+}
+
+footer ul li a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	float: left;
+}
+
+img{
+    height: 100%;
+    
+}
+
+nav ul{
+	padding:0;
+}
+
+nav ul li{
+	
+    list-style-type: none;
+	line-height: 5vw;
+	margin-left: 10px;
+	text-align: center;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding-bottom: 10px;
+	color: black;
+	font-family: arial;
+	font-size: 1.7vw;
+
+	
+}
+
+nav ul li a:hover{
+	color: orange;
+	border-bottom: 1px solid orange;
+}
+
