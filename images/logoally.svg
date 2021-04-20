@@ -12,8 +12,8 @@
    viewBox="0 0 210.92648 101.25934"
    version="1.1"
    id="svg94"
-   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
-   sodipodi:docname="logoally.svg">
+   sodipodi:docname="logoally.svg"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
   <defs
      id="defs88" />
   <sodipodi:namedview
@@ -21,11 +21,11 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.21496906"
-     inkscape:cx="-176.63294"
-     inkscape:cy="385.82812"
+     inkscape:zoom="0.44744592"
+     inkscape:cx="745.71988"
+     inkscape:cy="177.75546"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -34,9 +34,10 @@
      inkscape:guide-bbox="true"
      inkscape:window-width="1434"
      inkscape:window-height="786"
-     inkscape:window-x="76"
+     inkscape:window-x="92"
      inkscape:window-y="102"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="true" />
   <metadata
      id="metadata91">
     <rdf:RDF>
@@ -53,20 +54,14 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Calque 2"
-     transform="translate(0,-110.03271)">
-    <rect
-       style="opacity:0.65;fill:#ffffff;stroke-width:0.264583"
-       id="rect251"
-       width="210.92648"
-       height="101.25934"
-       x="0"
-       y="110.03271" />
-  </g>
+     transform="translate(0,-110.03271)"
+     style="display:inline;opacity:1" />
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-110.03271)">
+     transform="translate(0,-110.03271)"
+     style="display:inline">
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.242753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 40.081772,159.28565 c -0.543548,-5.74608 -1.941244,-8.54148 -3.49424,-10.48272 -4.34839,-2.01889 -6.211984,-1.553 -8.463829,-1.0871 -2.251841,0.4659 -13.045162,4.19309 -10.560371,3.80484 2.484793,-0.38824 6.833184,-0.62119 6.677882,-0.62119 0.931798,2.56244 2.507902,6.16396 4.066792,7.63868 1.570459,1.48566 5.317615,3.46045 8.434826,2.68874 1.087097,2.25184 2.950691,6.13433 1.708294,8.61912 -1.242397,2.4848 -8.774424,8.07558 -9.162675,12.96752 -0.388248,4.89194 -0.1553,10.71567 4.891937,15.14171 -3.105991,-5.43549 -4.348388,-9.78388 -3.72719,-13.04517 0.621199,-3.26129 3.550375,-6.14929 7.532031,-9.62857 3.713281,-3.24477 4.426037,-5.97904 3.72719,-9.70622 -0.69885,-3.7272 -1.630647,-6.28964 -1.630647,-6.28964 z"

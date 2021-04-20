@@ -1,7 +1,7 @@
 body {
 	display: grid;
 	grid-template-columns: 15% 85%;
-	grid-template-rows: 15% 100% 10%;
+	grid-template-rows: 15% 78% 7%;
 	width: 100vw;
 	height: 100vh;
 	grid-template-areas: 
@@ -33,7 +33,7 @@ h1 {
 	font-family: arial;
 	font-size: 5vw;
 	margin-top: 0;
-	text-shadow: 0.08em 0.1em 0.08em rgb(218, 137, 70);
+	text-shadow: 0.08em 0.1em 0.07em rgb(218, 137, 70);
 }
 
 
@@ -50,6 +50,10 @@ main {
 	grid-area: main;
 }
 
+main:-webkit-scrollbar {
+	display: none;
+}
+
 .linear-gradient{
 	background: linear-gradient(rgb(161, 80, 228), rgb(238, 158, 11));
 }
@@ -59,13 +63,21 @@ main {
 	height:100%;
 	/* background-color:red; */
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 }
 
 footer {
 	background-color: rgb(10, 3, 3);
 	grid-area: footer;
+	display: flex;
 }
+
+hr{
+	background-color: black;
+	height: 1px;
+	border:none;
+}
+
 
 footer ul li{
 	font-family: arial;
@@ -73,14 +85,18 @@ footer ul li{
 	list-style-type: none;	
 	font-size: 15px;
 	padding: 1%;
-	margin-left: 9%;
+	margin-left: 5%;
 }
 
 footer ul{
+
 	margin: 10px;
 	padding:0;
 	display: flex;
+	width: 100%;
+	justify-content:center;
 }
+
 
 footer ul li a {
 	color: wheat;
@@ -110,18 +126,15 @@ nav ul li{
 nav ul li a{
 	
 	text-decoration: none;
-	padding-bottom: 10px;
 	color: black;
 	font-family: arial;
 	font-size: 1.7vw;
-	border-bottom: 1px solid black;
 	padding-right: 10px;
 	padding-left: 15px;
 }
 
 nav ul li a:hover{
 	color: orange;
-	border-bottom: 1px solid orange;
 
 }
 
@@ -131,13 +144,29 @@ footer ul li a:hover{
 }
 
 .button{
-	background-color: rgb(51, 190, 16); 
-	border: none;rgb(122, 32, 4)
-	color: black;
+	background-color: rgb(177, 108, 5); 
+	border: none;rgb(122, 32, 4);
 	padding: 15px 15px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 12px;
-	border-radius: 50%;
+	border-radius: 5% 25% 8%;
+	font-weight: bold;
 }
+
+.button a{
+	color: black;
+}
+
+footer .button:visited{
+  color: black;
+}
+footer .button:active{
+	color: rgb(126, 11, 11);
+}
+
+footer .button:hover{
+	background-color: rgb(212, 152, 62);;
+}
+
